@@ -1,0 +1,32 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 98%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #F9E9D0;
+    display: grid;
+    grid-template-areas: 
+    "h h h h"
+    "h h h h"
+    "m m m m"
+    "m m m m"
+    "m m m m"
+    "m m m m"
+    "m m m m"
+    "m m m m"
+    "m m m m"
+    "f f f f";
+}

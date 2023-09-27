@@ -1,0 +1,10 @@
+header{
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 9px;
+    border-color: #000;
+    border-style: double;
+    grid-area: h;
+}
