@@ -8,3 +8,5 @@ import './styles/header.scss'
 export{
     handleSubmit
 }
+
+console.log(handleSubmit);
