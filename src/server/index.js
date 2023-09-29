@@ -2,11 +2,16 @@ var path = require('path');
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
+const dotenv = require("dotenv");
 
 const app = express();
 app.use(cors());
 
 app.use(express.static('dist'));
+app.use(express.json());
+dotenv.config();
+
+const API_KEY = process.env.API_KEY;
 
 console.log(__dirname);
 
