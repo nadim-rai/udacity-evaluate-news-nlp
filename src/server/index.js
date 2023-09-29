@@ -1,11 +1,14 @@
-var path = require('path')
-const express = require('express')
+var path = require('path');
+const express = require('express');
+const cors = require('cors');
+const axios = require('axios');
 
-const app = express()
+const app = express();
+app.use(cors());
 
-app.use(express.static('dist'))
+app.use(express.static('dist'));
 
-console.log(__dirname)
+console.log(__dirname);
 
 app.get('/', function (req, res) {
     res.sendFile('dist/index.html')
