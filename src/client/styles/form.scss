@@ -1,27 +1,28 @@
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-area: m;
-}
-section{
-    width: 40%;
-    margin-top: 50px;
-}
+$color_1: #fff;
+$background-color_1: #26161F;
 
-input[type=text] {
-    padding: 10px;
-    margin: 10px 0px;
-    width:100%;
-    font-size: 19px;
-  }
-
-  input[type=submit] {
-    padding: 10px;
-    margin: 10px 0px;
-    width:100%;
-    font-size: 21px;
-    text-transform: uppercase;
-    color: #fff;
-    background-color: #26161F;
-  }
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	grid-area: m;
+}
+section {
+	width: 40%;
+	margin-top: 50px;
+}
+#name {
+	padding: 10px;
+	margin: 10px 0px;
+	width: 100%;
+	font-size: 19px;
+}
+input[type=submit] {
+	padding: 10px;
+	margin: 10px 0px;
+	width: 100%;
+	font-size: 21px;
+	text-transform: uppercase;
+	color: $color_1;
+	background-color: $background-color_1;
+}

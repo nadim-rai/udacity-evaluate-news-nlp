@@ -1,32 +1,38 @@
-html{
-    box-sizing: border-box;
-}
+$font-family_1: 'Courier New', Courier, monospace;
+$background-color_1: #F9E9D0;
 
-*, *::before, *::after{
-    box-sizing: inherit;
+html {
+	box-sizing: border-box;
 }
-
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+* {
+	box-sizing: inherit;
+	&::before {
+		box-sizing: inherit;
+	}
+	&::after {
+		box-sizing: inherit;
+	}
 }
-
-.container{
-    width: 98%;
-    height: 100vh;
-    margin: 0 auto;
-    background-color: #F9E9D0;
-    display: grid;
-    grid-template-areas: 
-    "h h h h"
-    "h h h h"
-    "m m m m"
-    "m m m m"
-    "m m m m"
-    "m m m m"
-    "m m m m"
-    "m m m m"
-    "m m m m"
+body {
+	padding: 0;
+	margin: 0;
+	font-family: $font-family_1;
+}
+.container {
+	width: 98%;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: $background-color_1;
+	display: grid;
+	grid-template-areas: 
+    "h h h h" 
+    "h h h h" 
+    "m m m m" 
+    "m m m m" 
+    "m m m m" 
+    "m m m m" 
+    "m m m m" 
+    "m m m m" 
+    "m m m m" 
     "f f f f";
 }

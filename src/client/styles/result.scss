@@ -1,9 +1,13 @@
-section h3{
-    font-size: 26px;
-    font-weight: 500;
+$background-color_1: #dfa88a;
+
+section {
+	h3 {
+		font-size: 26px;
+		font-weight: 500;
+	}
 }
-.result{
-    padding: 15px;
-    font-size: 21px;
-    background-color: #dfa88a;
+.result {
+	padding: 15px;
+	font-size: 21px;
+	background-color: $background-color_1;
 }

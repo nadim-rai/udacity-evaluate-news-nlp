@@ -1,10 +1,12 @@
-header{
-    font-size: 38px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-width: 9px;
-    border-color: #000;
-    border-style: double;
-    grid-area: h;
+$border-color_1: #000;
+
+header {
+	font-size: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-width: 9px;
+	border-color: $border-color_1;
+	border-style: double;
+	grid-area: h;
 }
