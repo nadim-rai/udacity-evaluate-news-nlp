@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evaluate News NLP</title>
-    <!-- <script src="../../../dist/main.js"></script> -->
-    <!-- <link rel="stylesheet" href="../styles/base.css">
-    <link rel="stylesheet" href="../styles/header.css">
-    <link rel="stylesheet" href="../styles/form.css">
-    <link rel="stylesheet" href="../styles/footer.css"> -->
 </head>
 <body>
     <div class="container">
@@ -20,10 +15,16 @@
                     <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)">
                 </form>
             </section>
-
             <section>
                 <h3>Form Results:</h3>
-                <div id="results"></div>
+                <div class="result">
+                    <div id="score_tag"></div>
+                    <div id="agreement"></div>
+                    <div id="subjectivity"></div>
+                    <div id="confidence"></div>
+                    <div id="irony"></div>
+                    <div id="error_msg"></div>
+                </div>
             </section>
         </main>
         <footer>
