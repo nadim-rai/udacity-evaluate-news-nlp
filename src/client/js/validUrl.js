@@ -17,3 +17,6 @@ function validUrl(str) {
  }
 
  export { validUrl }
+
+ //Sourced regex for validating url from this site.
+//https://dev.to/davidemaye/how-to-validate-urls-in-javascript-adm
